@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodigoMaster's</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class ="barra_lateral ">
+        <div>
+            <div class ="nombre_pagina">
+                <ion-icon id="codigo" name="code"></ion-icon>
+                <span>CodigoMaster's</span>
+            </div>
+        </div>
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a href="#Inicio">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#QuienesSomos">
+                        <ion-icon name="people-circle"></ion-icon>
+                        <span>Quienes somos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Servicios">
+                        <ion-icon name="construct-outline"></ion-icon>
+                        <span>Servicios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Contactos">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>Contactanos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="scriptresponsive.js"></script>
+    <section id="Inicio">
+        <form class="cajainicio">
+            <h4>CodigoMaster's</h4>
+        </form>
+    </section>
+    <section id="QuienesSomos">
+        <div class="izquierda">
+            <h2 class="subtitulo">¿Quienes somos?</h2>
+            <p class="descripcion">
+                Somos una empresa joven formada por estudiantes del último año de nivel secundario, especializados en el desarrollo de páginas web y en brindar servicios de consultoría.
+Nuestra formación técnica y académica nos permite combinar creatividad, conocimiento y responsabilidad para ofrecer soluciones digitales modernas, funcionales y a medida.
+Gracias al acompañamiento de nuestra institución y a la experiencia adquirida, estamos preparados para afrontar desafíos reales del mundo laboral y dejar nuestra marca en cada proyecto.
+            </p>
+            <h2 class="subtitulo">¿Por que elegirnos?</h2>
+            <p class="descripcion">
+                Elegir trabajar con nosotros es apostar por jóvenes comprometidos, entusiastas y preparados. Nos destacamos por nuestra responsabilidad, nuestra capacidad de adaptación y las ganas constantes de aprender y crecer.
+                Contamos con una formación actualizada, orientada a las necesidades del mundo laboral, y estamos listos para aplicar nuestros conocimientos con dedicación y seriedad.
+            </p>
+        </div>
+        <form class="Integrantes">
+            <h2>Integrantes</h2>
+            <div class="caja_integrantes">
+                <div class="integrante"><ion-icon name="person-circle-outline"></ion-icon>
+                    Alex Lopez</div>
+                <div class="integrante"><ion-icon name="person-circle-outline"></ion-icon>
+                    Cristian Soria</div>
+                <div class="integrante"><ion-icon name="person-circle-outline"></ion-icon>
+                    Matias Monges</div>
+                <div class="integrante"><ion-icon name="person-circle-outline"></ion-icon>
+                    Facundo Medina</div>
+                <div class="integrante"><ion-icon name="person-circle-outline"></ion-icon>
+                    Juan Morinigo</div>
+            </div>
+        </form>
+       
+
+
+    </section>
+    <section id="Servicios">
+        <h2>Estos son los servicios que ofrecemos</h2>
+        <div class="servicios_brindados">
+            <div class="responsive">
+                <div class="imagen_servicio">
+                    <img src="responsive.jpg" width="190" height="180">
+                </div>
+                <p>Elaboramos paginas web responsives<br> para que se adapaten a cualquier tipo de dispositivo</p>
+            </div>
+            <div class="inteligencia_artificial">
+                <div class="imagen_servicio">
+                    <img src="ChatGPT-Logo.jpg" width="190" height="180">
+                </div>
+                <p>En nuestras paginas web<br>implementamos el uso de inteligencia artificial, esto si el cliente lo desea</p>
+            </div>
+            <div class="algun_otro_servicios_mas">
+                <div class="imagen_servicio">
+                    <img src="otro_servicio.jpg" width="190" height="180">
+                </div>
+                <p>
+                    Aca va algun otro servicio mas que podriamos ofrecer
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="Contactos">
+        <h2>Si te quedaron dudas sobre el tema <br>no dudes en llamarnos</h2>
+        <form class="cajaformulario">
+            <h3>Llena el formulario y<br> enviame un mensaje</h3>
+            <div class="cajainput">
+                <input type="text" placeholder="Tu nombre completo">
+            </div>
+            <div class="cajainput">
+                <input type="email" placeholder="Tu correo electrónico">
+            </div>
+            <div class="cajatexto">
+                <input type="text" placeholder="Deja tu mensaje">
+            </div>
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </section>
+    <section class="footer">
+        <div class="linea">
+            <p>Nuestras Redes</p>
+        </div>
+        <div >
+            <p>CodigoMaster's@| Todos los derechos reservados | Terminos y condiciones</p>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+ 
